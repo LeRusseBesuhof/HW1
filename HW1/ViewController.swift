@@ -3,10 +3,11 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         let text = UILabel()
-        var nameData = UILabel(); var surnameData = UILabel(); var flowData = UILabel()
+        let nameData = UILabel(); let surnameData = UILabel(); let flowData = UILabel()
         let defaultData = ("Name", "Surname", "iOS 6");
         let myData = ("Павел", "Градов", "iOS 7")
         
